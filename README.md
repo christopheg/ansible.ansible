@@ -1,6 +1,6 @@
 # Ansible Role: ansible
 
-[![Build Status](https://img.shields.io/travis/sbaerlocher/ansible.ansible.svg?branch=master&style=popout-square)](https://travis-ci.org/sbaerlocher/ansible.ansible) [![license](https://img.shields.io/github/license/mashape/apistatus.svg?style=popout-square)](https://sbaerlo.ch/licence) [![Ansible Galaxy](http://img.shields.io/badge/ansible--galaxy-ansible-blue.svg?style=popout-square)](https://galaxy.ansible.com/sbaerlocher/ansible) [![Ansible Role](https://img.shields.io/ansible/role/d/id.svg?style=popout-square)](https://galaxy.ansible.com/sbaerlocher/ansible)
+[![Build Status](https://img.shields.io/travis/sbaerlocher/ansible.ansible.svg?branch=master&style=popout-square)](https://travis-ci.org/sbaerlocher/ansible.ansible) [![license](https://img.shields.io/github/license/mashape/apistatus.svg?style=popout-square)](https://sbaerlo.ch/licence) [![Ansible Galaxy](http://img.shields.io/badge/ansible--galaxy-ansible-blue.svg?style=popout-square)](https://galaxy.ansible.com/sbaerlocher/ansible) [![Ansible Role](https://img.shields.io/ansible/role/d/40190.svg?style=popout-square)](https://galaxy.ansible.com/sbaerlocher/ansible)
 
 ## Description
 

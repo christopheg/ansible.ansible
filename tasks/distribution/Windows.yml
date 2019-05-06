@@ -3,7 +3,7 @@
 
 - name: 'ansible : copy ConfigureRemotingForAnsible.ps1 to system'
   win_get_url:
-    src: 'https://raw.githubusercontent.com/ansible/ansible/devel/examples/scripts/ConfigureRemotingForAnsible.ps1'
+    url: 'https://raw.githubusercontent.com/ansible/ansible/devel/examples/scripts/ConfigureRemotingForAnsible.ps1'
     dest: '{{ ansible_directory }}\\ConfigureRemotingForAnsible.ps1'
 
 - name: 'ansible : Configure WinRM from daily scheduled task'
