@@ -1,2 +1,6 @@
 ---
 # defaults file for sbaerlocher.ansible
+
+ansible_ressourcen_name: "{{ source_of_supply_name | default('Support') }}"
+ansible_root_directory: "{{ ansible_env.SystemDrive }}\\{{ ansible_ressourcen_name }}"
+ansible_directory: "{{ ansible_root_directory }}\\ansible"
