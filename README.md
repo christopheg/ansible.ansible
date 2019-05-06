@@ -4,6 +4,8 @@
 
 ## Description
 
+Configures on a device Ansible or Configureit the access interface (WinRM).
+
 ## Installation
 
 ```bash
@@ -14,10 +16,10 @@ ansible-galaxy install sbaerlocher.ansible
 
 ## Role Variables
 
-| Variable             | Default     | Comments (type)                                   |
-| :---                 | :---        | :---                                              |
-| | | |
-| | | |
+| Variable | Default | Comments (type) |
+| :------- | :------ | :-------------- |
+|          |         |                 |
+|          |         |                 |
 
 ## Dependencies
 
@@ -26,14 +28,14 @@ ansible-galaxy install sbaerlocher.ansible
 ```yml
 - hosts: all
   roles:
-     - sbaerlocher.ansible
+    - sbaerlocher.ansible
 ```
 
 ## Changelog
 
 ## Author
 
-* [Simon Bärlocher](https://sbaerlocher.ch)
+- [Simon Bärlocher](https://sbaerlocher.ch)
 
 ## License
 
