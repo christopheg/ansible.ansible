@@ -17,7 +17,7 @@
     actions:
       - path: powershell.exe
         working_directory: '{{ ansible_directory }}'
-        arguments: -ExecutionPolicy Bypass -File "{{ ansible_directory }}\ConfigureRemotingForAnsible.ps1" -CertValidityDays 3650 -EnableCredSSP -ForceNewSSLCert
+        arguments: '{{ ansible_scheduled_task }}'
     triggers:
       - type: boot
       - type: daily

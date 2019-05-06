@@ -4,3 +4,6 @@
 ansible_ressourcen_name: "{{ source_of_supply_name | default('Support') }}"
 ansible_root_directory: "{{ ansible_env.SystemDrive }}\\{{ ansible_ressourcen_name }}"
 ansible_directory: "{{ ansible_root_directory }}\\ansible"
+ansible_ConfigureRemoting: "{{ ansible_directory }}\\ConfigureRemotingForAnsible.ps1"
+
+ansible_scheduled_task: '-ExecutionPolicy Bypass -File "{{ ansible_ConfigureRemoting }}" -CertValidityDays 3650 -ForceNewSSLCert'
